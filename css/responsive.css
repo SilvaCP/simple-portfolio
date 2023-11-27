@@ -1,38 +1,39 @@
-
 @media (max-width:990px) {
-    
-    main{
+
+    main {
         width: 100%;
-       
+
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .main-content{
+    .main-content {
         width: 100%;
         align-items: center;
-    
+
         margin-bottom: 15%;
     }
 
-    main .main-content .text , .techs{
+    main .main-content .text,
+    .techs {
         text-align: center;
     }
 
-    main .main-content .text p{
+    main .main-content .text p {
         width: 100%;
         font-size: 0.9em;
     }
 
-    main .techs .cards-container, .main-content .text p{
+    main .techs .cards-container,
+    .main-content .text p {
         margin-top: 32px;
     }
 }
 
-@media(max-width:700px){
+@media(max-width:700px) {
 
-    header{
+    header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -57,15 +58,13 @@
         height: 50px;
     }
 
-    main .main-content .text h2, .main-content .techs h2 {
+    main .main-content .text h2,
+    .main-content .techs h2 {
         font-size: 1.8em;
     }
 
-    main figure img{
+    main figure img {
         width: 110px;
-        height: 150px; 
+        height: 150px;
     }
 }
-
-
-
